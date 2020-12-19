@@ -1,0 +1,104 @@
+* {
+	font-family: arial;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.head {
+	background-color: #353535;
+	height: 50px;
+	width: 100%; 
+}
+.headint {
+	margin: auto;
+	width: 1000px;
+	color: #ffffff;
+}
+.logo {
+	font-size: 24px;
+	float: left;
+	line-height: 50px;
+}
+.menu {
+	float: right;
+}
+.menu ol,
+.menu li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.menu li {
+	float: left;
+	line-height: 50px;
+	padding-left: 10px;
+	padding-right: 10px;
+	font-size: 14px;
+	cursor: pointer;
+}
+.menu li:hover {
+	background-color: #3480c1;
+}
+.banner {
+	background-color: #347aba;
+	height: 300px;
+}
+.bannerint {
+	width: 1000px;
+	margin: auto;
+}
+.bannerleft {
+	float: left;
+}
+.bannerright {
+	float: right;
+	margin-right: 55px;
+}
+.frase1 {
+	font-size: 48px;
+	color: #ffffff;
+	font-weight: bold;
+	margin-top: 60px;
+}
+.frase2 {
+	font-size: 20px;
+	color: #ffffff;
+	padding-top: 10px;
+}
+.button {
+	margin-top: 10px;
+	color: #000000;
+	background-color: #ffc001;
+	width: 282px;
+	height: 56px;
+	font-size: 20;
+	border-radius: 8px;
+	cursor: pointer;
+	line-height: 56px;
+	text-align: center;
+	font-weight: bold;
+}
+.contentint {
+	width: 1000px;
+	margin: auto;
+}
+.other {
+	height: 90px;
+	line-height: 90px;
+	font-size: 20px;
+	text-align: center;
+}
+.photos img {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+.foot {
+	margin-top: 50px;
+	background-color: #347aba;
+	text-align: center;
+	height: 50px;
+	line-height: 50px;
+	color: #ffffff;
+	font-weight: bold;
+}
