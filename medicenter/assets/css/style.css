@@ -10,7 +10,7 @@ header {
 }
 .container {
 	display: flex;
-	width: 80%;
+	width: 70%;
 	justify-content: space-between;
 }
 .logo {
@@ -79,7 +79,6 @@ nav a:hover {
 	max-width: 350px;
 }
 .banner_options {
-	height: 210px;
 	display: flex;
 }
 .banner1,
@@ -177,7 +176,7 @@ nav a:hover {
 article {
 	margin-right: 20px;
 	flex: 1;
-	min-width: 200px;
+	min-width: 300px;
 }
 article a {
 	text-decoration: none;
@@ -329,4 +328,65 @@ footer .widget_title_text {
 	margin-top: 5px;
 	height: 20px;
 	width: auto;
+}
+.fitem {
+	display: flex;
+	margin-bottom: 30px;
+}
+.fitem_info {
+	display: flex;
+	flex-direction: column;
+}
+.fitem_text {
+	font-size: 12px;
+	color: #d5d5d5;
+	margin-right: 12px;
+	line-height: 18px;
+}
+.fitem_data {
+	margin-top: 6px;
+	color: #42b3e5;
+	font-size: 10px;
+}
+.arrow img {
+	height: 12px;
+	width: auto;
+	margin-right: 12px;
+}
+
+@media screen and (max-width: 900px) {
+	.banner_headline h1 {	
+		font-size: 55px;
+	}
+	.banner_headline h2 {
+		font-size: 16px;
+	}
+	.banner_title {
+		font-size: 16px;
+		margin-bottom: 15px;
+	}
+}
+
+@media screen and (max-width: 780px) {
+
+	header .logo {
+		text-align: center;
+	}
+	header .menu {
+		display: none;
+	}
+	.banner_headline h2 {
+		padding-bottom: 32px;
+	}
+	.banner_options {
+		height: auto;
+		flex-direction: column;
+	}
+	.banner {
+		height: 100%;
+	}
+
+	aside {
+		display: none;
+	}
 }
