@@ -161,7 +161,6 @@ nav a:hover {
 }
 .item_row {
 	display: flex;
-	flex-direction: row-reverse;
 }
 .item {
 	margin: 10px;
@@ -354,6 +353,19 @@ footer .widget_title_text {
 	margin-right: 12px;
 }
 
+
+.menumobile {
+	display: none;
+	width: 40px;
+	height: 40px;
+	margin-top: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+}
+.mm_line {
+	height: 5px;
+	background-color: #39aae1;
+}
 @media screen and (max-width: 900px) {
 	.banner_headline h1 {	
 		font-size: 55px;
@@ -365,16 +377,17 @@ footer .widget_title_text {
 		font-size: 16px;
 		margin-bottom: 15px;
 	}
+	.menu a {
+		padding: 10px;
+	}
+	.container {
+		width: 85%;
+	}
 }
 
 @media screen and (max-width: 780px) {
 
-	header .logo {
-		text-align: center;
-	}
-	header .menu {
-		display: none;
-	}
+	
 	.banner_headline h2 {
 		padding-bottom: 32px;
 	}
@@ -382,11 +395,35 @@ footer .widget_title_text {
 		height: auto;
 		flex-direction: column;
 	}
-	.banner {
-		height: 100%;
+	#banner {
+		height: auto;
 	}
 
-	aside {
+	.container,
+	.footer_menu,
+	.footer_area {
+		flex-direction: column;
+	}
+	.container {
+		width: 95%;
+	}
+	header {
+		height: auto;
+	}
+	header .container {
+		flex-direction: row;
+	}
+	nav ul {
+		flex-direction: column;
 		display: none;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		background-color: #fff;
+	}
+	.menumobile {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-around;
 	}
 }
